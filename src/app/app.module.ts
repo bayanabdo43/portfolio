@@ -10,6 +10,7 @@ import { WorkComponent } from '../components/work/work.component';
 import { SkillsComponent } from '../components/skills/skills.component';
 import { ExperienceComponent } from '../components/experience/experience.component';
 import { NotfoundComponent } from '../components/notfound/notfound.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { NotfoundComponent } from '../components/notfound/notfound.component';
     NotfoundComponent
   ],
   imports: [
+    RouterModule,
     BrowserModule,
     AppRoutingModule
   ],
