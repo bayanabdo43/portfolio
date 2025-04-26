@@ -1,0 +1,22 @@
+.CAROUSEL1{
+    background-image: url(../../assets/imgs/img_bg_2-DzCs5o-0.jpg);
+    background-size: cover;
+}
+.CAROUSEL2{
+    background-image: url(../../assets/imgs/img_bg_1-PzvG2r05.jpg);
+    background-size: cover;
+}
+.position-absolute{
+    left: 20%;
+    top: 30%;
+}
+h2{
+    font-size: 60px;
+    line-height: 78px;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+}

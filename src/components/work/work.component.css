@@ -1,0 +1,41 @@
+span{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgb(153, 153, 153);
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+img{
+    width: 450px;
+    height: 450px;
+}
+
+button.active{
+    background-color: transparent !important;
+    color: blue !important;  
+}
+.layer-card{
+    transform: translatey(10px);
+    opacity: 0;
+    top: 1%;
+    bottom: 1%;
+    left: 1%;
+    right: 1%;
+    transition:all 0.5s;
+    
+    &:hover{
+        opacity: 1;
+        transform: translatey(0);
+    }
+    
+}
+   
+
+
+
